@@ -8,6 +8,10 @@ class Animal {
 		return this.species
 	}
 
+	set species(species){
+		this.species=species
+	}
+
 	makeSound(){
 		console.log(`The ${this.species} make a sound`)
 	}
