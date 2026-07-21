@@ -22,6 +22,14 @@ class Dog extends Animal {
 		super(species)
 	}
 
+	 get species(){
+		 return super.species
+	 }
+
+	
+	 set species(species){
+		 super.species = species
+	 }
 	purr(){
 		console.log("purr")
 	}
@@ -32,6 +40,15 @@ class Cat extends Animal {
 		super(species)
 	}
 
+	 get species(){
+		 return super.species
+	 }
+
+	
+	 set species(species){
+		 super.species = species
+	 }
+	
 	bark(){
 		console.log("woof")
 	}
